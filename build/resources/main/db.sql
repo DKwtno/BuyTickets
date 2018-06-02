@@ -1,4 +1,4 @@
-
+use tickets;
 
 CREATE TABLE ticket_info
 (
@@ -51,7 +51,8 @@ CREATE TABLE order_detail
     ticket_price decimal(8,2) NOT NULL COMMENT '单价',
     ticket_quantity int NOT NULL,
     create_time timestamp DEFAULT current_timestamp NOT NULL,
-    update_time timestamp DEFAULT current_timestamp on update current_timestamp
+    update_time timestamp DEFAULT current_timestamp on update current_timestamp,
+    key idx_order_id (order_id)
 );
 ALTER TABLE order_detail COMMENT = '订单详情表';
 
