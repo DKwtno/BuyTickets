@@ -8,23 +8,29 @@ import javax.persistence.Id;
 import java.math.BigDecimal;
 import java.util.Date;
 
-@Entity
-@Data
-@DynamicUpdate
-public class TicketInfo {
-    @Id
-    private String ticketId;
-    private String ticketDepart;
-    private BigDecimal ticketPrice;
-    private  Integer ticketStock;
-    private  String ticketArrive;
 
-    //airline info 中的 airline Type
-    private Integer airlineType;
-    // private Integer ticketStatus;
-    private Date takeOff;
+@Entity
+@DynamicUpdate
+@Data
+public class OrderDetail {
+
+    @Id
+    private String detailId;
+
+    private String orderId;
+
+    private String ticketId;
+
+    private String ticketDepart;
+
+    private String ticketArrive;
+
+    private BigDecimal ticketPrice;
+
+    private Integer ticketQuantity;
 
     private Date createTime;
 
-    private Date updateTime;
+    private Date UpdateTime;
+
 }

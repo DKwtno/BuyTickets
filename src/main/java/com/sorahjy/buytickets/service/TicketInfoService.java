@@ -1,6 +1,7 @@
 package com.sorahjy.buytickets.service;
 
 import com.sorahjy.buytickets.dataobject.TicketInfo;
+import com.sorahjy.buytickets.dto.CartDTO;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
@@ -12,7 +13,6 @@ public interface TicketInfoService {
     public Page<TicketInfo> findAll(Pageable pageable);
     List<TicketInfo> findUpAll();
     public TicketInfo save(TicketInfo ticketInfo);
-    //TODO 加减库存
-
-    //TODO 减库存
+    void increaseStock(List<CartDTO> cartDTOList);
+    void decreaseStock(List<CartDTO> cartDTOList);
 }

@@ -2,14 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b9f7caa-92b3-48d4-91ef-fc403b4c0922" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/VO/ResultVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/VO/TicketInfoVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/VO/TicketVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/controller/BuyerTicketCotroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/enums/TicketStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/impl/TicketInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/service/impl/TicketInfoServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/converter/OrderMaster2OrderDTOconverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/dataobject/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/dataobject/OrderMaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/dto/CartDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/dto/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/enums/OrderStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/enums/PayStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/enums/ResultEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/exception/SellException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/repository/OrderDetailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/repository/OrderMasterRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/utils/KeyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/utils/ResultVOUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/repository/OrderDetailRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/repository/OrderMasterRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/service/impl/OrderServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
@@ -17,8 +27,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/VO/TicketVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/VO/TicketVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/controller/BuyerTicketCotroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/controller/BuyerTicketCotroller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/dataobject/TicketInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/dataobject/TicketInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/TicketInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/TicketInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/impl/TicketInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/impl/TicketInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/service/impl/TicketInfoServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/service/impl/TicketInfoServiceImplTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -96,6 +110,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -112,91 +129,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BuyerTicketCotroller.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/controller/BuyerTicketCotroller.java">
+      <file leaf-file-name="OrderServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/impl/OrderServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+            <state relative-caret-position="336">
+              <caret line="201" column="24" lean-forward="true" selection-start-line="201" selection-start-column="24" selection-end-line="201" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#listTest#0;class#BuyerTicketCotroller#0" expanded="true" />
+                <element signature="method#create#0;class#OrderServiceImpl#0" expanded="true" />
+                <element signature="method#findOne#0;class#OrderServiceImpl#0" expanded="true" />
+                <element signature="method#findList#0;class#OrderServiceImpl#0" expanded="true" />
+                <element signature="method#cancel#0;class#OrderServiceImpl#0" expanded="true" />
+                <element signature="method#finish#0;class#OrderServiceImpl#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TicketInfoServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/impl/TicketInfoServiceImpl.java">
+      <file leaf-file-name="PayStatusEnum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/enums/PayStatusEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+            <state relative-caret-position="247">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#896#897#0" expanded="true" />
-                <element signature="e#938#939#0" expanded="true" />
+                <element signature="method#PayStatusEnum#0;class#PayStatusEnum#0" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TicketStatusEnum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/enums/TicketStatusEnum.java">
+      <file leaf-file-name="ResultEnum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/enums/ResultEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            <state relative-caret-position="224">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding>
-                <element signature="method#TicketStatusEnum#0;class#TicketStatusEnum#0" expanded="true" />
+                <element signature="method#ResultEnum#0;class#ResultEnum#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AirlineInfoServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/impl/AirlineInfoServiceImpl.java">
+      <file leaf-file-name="OrderServiceImplTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/service/impl/OrderServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+            <state relative-caret-position="360">
+              <caret line="84" column="50" lean-forward="true" selection-start-line="84" selection-start-column="50" selection-end-line="84" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#findByAirlineTypeIn#0;class#AirlineInfoServiceImpl#0" expanded="true" />
-                <element signature="e#975#976#0" expanded="true" />
-                <element signature="e#1015#1016#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TicketInfoService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/TicketInfoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AirlineInfoService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/AirlineInfoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TicketInfoVO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/VO/TicketInfoVO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#create#0;class#OrderServiceImplTest#0" expanded="true" />
+                <element signature="method#findOne#0;class#OrderServiceImplTest#0" expanded="true" />
+                <element signature="method#findList#0;class#OrderServiceImplTest#0" expanded="true" />
+                <element signature="method#cancel#0;class#OrderServiceImplTest#0" expanded="true" />
+                <element signature="method#finish#0;class#OrderServiceImplTest#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -207,6 +199,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Singleton" />
         <option value="Interface" />
         <option value="Enum" />
         <option value="JUnit4 Test Class" />
@@ -560,27 +553,46 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/repository/TicketCatagoryRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/repository/TicketCatagoryRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/dataobject/AirlineInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/repository/AirlineInfoRepository.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/repository/AirlineInfoRepositoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/impl/AirlineInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/AirlineInfoService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/service/impl/AirlineInfoServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/impl/TicketInfoRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/repository/TicketInfoRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/AirlineService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/enums/TicketStatusEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/repository/TicketInfoRepository.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/service/impl/TicketInfoServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/VO/ResultVO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/controller/BuyTicketCotroller.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/VO/ProductVO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/dataobject/TicketInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/VO/ResultTicketVO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/VO/TicketInfoVO.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/service/impl/TicketInfoServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/VO/TicketVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/utils/ResultVOUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/enums/OrderStatusEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/enums/PayStatusEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/dataobject/TicketInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/repository/OrderDetailRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/controller/BuyerTicketCotroller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/repository/AirlineInfoRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/AirlineInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/impl/AirlineInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/dataobject/OrderMaster.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/repository/AirlineInfoRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/repository/OrderMasterRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/repository/OrderMasterRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/dataobject/OrderDetail.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/repository/OrderDetailRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/Jaca.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/dto/OrderDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/exception/SellException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/utils/KeyUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/dto/CartDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/TicketInfoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/impl/TicketInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/controller/BuyerTicketCotroller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/converter/OrderMaster2OrderDTOconverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/enums/ResultEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/service/impl/OrderServiceImplTest.java" />
       </list>
     </option>
   </component>
@@ -671,6 +683,15 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="buytickets" type="462c0819:PsiDirectoryNode" />
+              <item name="converter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuyTickets" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="buytickets" type="462c0819:PsiDirectoryNode" />
               <item name="dataobject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -680,7 +701,25 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="buytickets" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuyTickets" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="buytickets" type="462c0819:PsiDirectoryNode" />
               <item name="enums" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuyTickets" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="buytickets" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
@@ -709,6 +748,15 @@
               <item name="buytickets" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuyTickets" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="buytickets" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
@@ -765,6 +813,216 @@
               <item name="buytickets" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="function" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework.data:spring-data-commons:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework.data:spring-data-commons:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-commons-2.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework.data:spring-data-commons:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-commons-2.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework.data:spring-data-commons:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-commons-2.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework:spring-aop:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework:spring-aop:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-aop-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework:spring-aop:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-aop-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework:spring-aop:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-aop-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework:spring-aop:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-aop-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework:spring-aop:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-aop-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework:spring-test:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework:spring-test:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-test-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework:spring-test:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-test-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework:spring-test:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-test-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework:spring-test:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-test-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework:spring-test:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-test-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+              <item name="junit4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework:spring-test:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-test-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+              <item name="junit4" type="462c0819:PsiDirectoryNode" />
+              <item name="statements" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -789,6 +1047,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
@@ -812,32 +1071,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BuyticketsApplication">
+  <component name="RunManager" selected="JUnit.OrderServiceImplTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="LoggerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests com.sorahjy.buytickets.LoggerTest" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-    </configuration>
-    <configuration name="AirlineInfoRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderDetailRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="buytickets_test" />
       <extension name="coverage">
         <pattern>
@@ -848,7 +1089,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.sorahjy.buytickets.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.sorahjy.buytickets.repository.AirlineInfoRepositoryTest" />
+      <option name="MAIN_CLASS_NAME" value="com.sorahjy.buytickets.repository.OrderDetailRepositoryTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -859,37 +1100,8 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
-      <method>
-        <option name="Make" enabled="false" />
-      </method>
     </configuration>
-    <configuration name="AirlineInfoServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="buytickets_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sorahjy.buytickets.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.sorahjy.buytickets.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.sorahjy.buytickets.service.impl.AirlineInfoServiceImplTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-      <method>
-        <option name="Make" enabled="false" />
-      </method>
-    </configuration>
-    <configuration name="TicketInfoRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderMasterRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="buytickets_test" />
       <extension name="coverage">
         <pattern>
@@ -900,7 +1112,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.sorahjy.buytickets.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.sorahjy.buytickets.repository.TicketInfoRepositoryTest" />
+      <option name="MAIN_CLASS_NAME" value="com.sorahjy.buytickets.repository.OrderMasterRepositoryTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -912,7 +1124,30 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TicketInfoServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderMasterRepositoryTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="buytickets_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sorahjy.buytickets.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.sorahjy.buytickets.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.sorahjy.buytickets.repository.OrderMasterRepositoryTest" />
+      <option name="METHOD_NAME" value="insert" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="OrderServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="buytickets_test" />
       <extension name="coverage">
         <pattern>
@@ -923,9 +1158,32 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.sorahjy.buytickets.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.sorahjy.buytickets.service.impl.TicketInfoServiceImplTest" />
+      <option name="MAIN_CLASS_NAME" value="com.sorahjy.buytickets.service.impl.OrderServiceImplTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="OrderServiceImplTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="buytickets_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sorahjy.buytickets.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.sorahjy.buytickets.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.sorahjy.buytickets.service.impl.OrderServiceImplTest" />
+      <option name="METHOD_NAME" value="create" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -994,19 +1252,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.BuyticketsApplication" />
-      <item itemvalue="Gradle.LoggerTest" />
-      <item itemvalue="JUnit.AirlineInfoRepositoryTest" />
-      <item itemvalue="JUnit.AirlineInfoServiceImplTest" />
-      <item itemvalue="JUnit.TicketInfoRepositoryTest" />
-      <item itemvalue="JUnit.TicketInfoServiceImplTest" />
+      <item itemvalue="JUnit.OrderMasterRepositoryTest" />
+      <item itemvalue="JUnit.OrderMasterRepositoryTest.insert" />
+      <item itemvalue="JUnit.OrderDetailRepositoryTest" />
+      <item itemvalue="JUnit.OrderServiceImplTest" />
+      <item itemvalue="JUnit.OrderServiceImplTest.create" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TicketInfoServiceImplTest" />
-        <item itemvalue="JUnit.TicketInfoRepositoryTest" />
-        <item itemvalue="JUnit.AirlineInfoRepositoryTest" />
-        <item itemvalue="JUnit.AirlineInfoServiceImplTest" />
-        <item itemvalue="Gradle.LoggerTest" />
+        <item itemvalue="JUnit.OrderServiceImplTest" />
+        <item itemvalue="JUnit.OrderServiceImplTest.create" />
+        <item itemvalue="JUnit.OrderDetailRepositoryTest" />
+        <item itemvalue="JUnit.OrderMasterRepositoryTest.insert" />
+        <item itemvalue="JUnit.OrderMasterRepositoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1025,7 +1283,7 @@
       <workItem from="1527572284805" duration="1169000" />
       <workItem from="1527666678822" duration="6581000" />
       <workItem from="1527860491170" duration="4852000" />
-      <workItem from="1527905317854" duration="11458000" />
+      <workItem from="1527905317854" duration="32047000" />
     </task>
     <task id="LOCAL-00001" summary="更新部分repository">
       <created>1527910648196</created>
@@ -1034,43 +1292,59 @@
       <option name="project" value="LOCAL" />
       <updated>1527910648197</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update buyer">
+      <created>1528009772258</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1528009772258</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AirlineInfoRepositoryTest - 2018.06.02 at 10h 58m 46s.xml">
-      <configuration name="AirlineInfoRepositoryTest" configurationId="JUnit" />
+    <history-entry file="OrderServiceImplTest_create - 2018.06.03 at 21h 37m 50s.xml">
+      <configuration name="OrderServiceImplTest.create" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AirlineInfoServiceImplTest - 2018.06.02 at 10h 59m 56s.xml">
-      <configuration name="AirlineInfoServiceImplTest" configurationId="JUnit" />
+    <history-entry file="OrderServiceImplTest_create - 2018.06.03 at 21h 40m 15s.xml">
+      <configuration name="OrderServiceImplTest.create" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AirlineInfoServiceImplTest - 2018.06.02 at 11h 26m 16s.xml">
-      <configuration name="AirlineInfoServiceImplTest" configurationId="JUnit" />
+    <history-entry file="OrderServiceImplTest_create - 2018.06.03 at 21h 41m 46s.xml">
+      <configuration name="OrderServiceImplTest.create" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AirlineInfoRepositoryTest - 2018.06.02 at 11h 26m 19s.xml">
-      <configuration name="AirlineInfoRepositoryTest" configurationId="JUnit" />
+    <history-entry file="OrderServiceImplTest - 2018.06.03 at 23h 22m 04s.xml">
+      <configuration name="OrderServiceImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TicketInfoRepositoryTest - 2018.06.02 at 11h 30m 01s.xml">
-      <configuration name="TicketInfoRepositoryTest" configurationId="JUnit" />
+    <history-entry file="OrderServiceImplTest - 2018.06.03 at 23h 37m 10s.xml">
+      <configuration name="OrderServiceImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TicketInfoRepositoryTest - 2018.06.02 at 11h 30m 45s.xml">
-      <configuration name="TicketInfoRepositoryTest" configurationId="JUnit" />
+    <history-entry file="OrderServiceImplTest - 2018.06.03 at 23h 40m 04s.xml">
+      <configuration name="OrderServiceImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TicketInfoRepositoryTest - 2018.06.02 at 11h 34m 49s.xml">
-      <configuration name="TicketInfoRepositoryTest" configurationId="JUnit" />
+    <history-entry file="OrderServiceImplTest - 2018.06.03 at 23h 58m 08s.xml">
+      <configuration name="OrderServiceImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TicketInfoRepositoryTest - 2018.06.02 at 11h 35m 03s.xml">
-      <configuration name="TicketInfoRepositoryTest" configurationId="JUnit" />
+    <history-entry file="OrderServiceImplTest - 2018.06.04 at 00h 00m 06s.xml">
+      <configuration name="OrderServiceImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TicketInfoRepositoryTest - 2018.06.02 at 17h 43m 23s.xml">
-      <configuration name="TicketInfoRepositoryTest" configurationId="JUnit" />
+    <history-entry file="OrderServiceImplTest - 2018.06.04 at 00h 00m 45s.xml">
+      <configuration name="OrderServiceImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TicketInfoServiceImplTest - 2018.06.02 at 18h 18m 11s.xml">
-      <configuration name="TicketInfoServiceImplTest" configurationId="JUnit" />
+    <history-entry file="OrderServiceImplTest - 2018.06.04 at 00h 01m 31s.xml">
+      <configuration name="OrderServiceImplTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24962000" />
+    <option name="totallyTimeSpent" value="45551000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1085,24 +1359,25 @@
       <window_info anchor="right" id="Remote Host" order="5" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="SQL Generator" weight="0.32969698" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32837838" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3272727" />
       <window_info anchor="right" id="Database" order="8" visible="true" weight="0.19027181" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987879" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4048485" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.32969698" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.47636363" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4751515" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.31151515" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32972974" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3290653" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1981402" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23962805" />
       <window_info anchor="right" id="Bean Validation" order="12" />
       <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
       <window_info anchor="right" id="Gradle" order="9" weight="0.3297568" />
       <window_info anchor="right" id="SciView" order="0" />
       <window_info anchor="right" id="Theme Preview" order="11" />
@@ -1111,7 +1386,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="13" visible="true" weight="0.32969698" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32969698" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
@@ -1124,158 +1398,67 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新部分repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新部分repository" />
+    <MESSAGE value="update buyer" />
+    <option name="LAST_COMMIT_MESSAGE" value="update buyer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/service/impl/TicketInfoServiceImplTest.java</url>
-          <line>22</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/impl/OrderServiceImpl.java</url>
+          <line>86</line>
           <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/impl/OrderServiceImpl.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/service/impl/OrderServiceImplTest.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/impl/OrderServiceImpl.java</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/impl/OrderServiceImpl.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/service/impl/OrderServiceImplTest.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="13" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/impl/TicketInfoRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="76">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/BuyticketsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/AirlineService.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/dataobject/AirlineInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="method#AirlineInfo#0;class#AirlineInfo#0" expanded="true" />
-            <element signature="method#AirlineInfo#1;class#AirlineInfo#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/BuyticketsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3a8a9c2b-fe73-4960-828a-7f4e8d9bced9/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/LoggerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#test1#0;class#LoggerTest#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/BuyticketsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3a8a9c2b-fe73-4960-828a-7f4e8d9bced9/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="56" column="43" lean-forward="true" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/BuyticketsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3a8a9c2b-fe73-4960-828a-7f4e8d9bced9/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/repository/GirlRepository.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/GirlService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/controller/HelloCotroller.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/controller/GirlController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/domain/Girl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/exception/GirlException.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/handler/ExceptionHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/properties/GirlProperties.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/aspect/HTTPAspect.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/enums/ResultEnums.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/GirlServiceTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/repository/TicketCatagoryRepositoryTest2.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/BuyticketsApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding>
-            <element signature="method#contextLoads#0;class#BuyticketsApplicationTests#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="110">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1290,60 +1473,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/enums/TicketStatusEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/BuyticketsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="95">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
+            <element signature="method#TicketStatusEnum#0;class#TicketStatusEnum#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/impl/TicketInfoRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/BuyticketsApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="171">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="method#contextLoads#0;class#BuyticketsApplicationTests#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/repository/AirlineInfoRepositoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/dataobject/AirlineInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="41" selection-start-line="41" selection-end-line="42" />
+        <state relative-caret-position="25">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#AirlineInfo#0;class#AirlineInfo#0" expanded="true" />
+            <element signature="method#AirlineInfo#1;class#AirlineInfo#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/VO/TicketVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/AirlineService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/repository/TicketInfoRepositoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/VO/TicketInfoVO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="132">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#saveTest#0;class#TicketInfoRepositoryTest#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/VO/ResultVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/dataobject/OrderDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/dataobject/TicketInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/3a8a9c2b-fe73-4960-828a-7f4e8d9bced9.SCHEMA:tickets">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>3a8a9c2b-fe73-4960-828a-7f4e8d9bced9.SCHEMA:tickets</OriginalElement>
+          <nodes>
+            <node x="0.0" y="546.0">3a8a9c2b-fe73-4960-828a-7f4e8d9bced9.TABLE:tickets.hibernate_sequence</node>
+            <node x="268.0" y="0.0">3a8a9c2b-fe73-4960-828a-7f4e8d9bced9.TABLE:tickets.ticket_info</node>
+            <node x="0.0" y="0.0">3a8a9c2b-fe73-4960-828a-7f4e8d9bced9.TABLE:tickets.order_master</node>
+            <node x="260.0" y="273.0">3a8a9c2b-fe73-4960-828a-7f4e8d9bced9.TABLE:tickets.airline_info</node>
+            <node x="0.0" y="273.0">3a8a9c2b-fe73-4960-828a-7f4e8d9bced9.TABLE:tickets.order_detail</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0400850304457048" x="-175.24963539072044" y="210.75036460927956" />
+          <SelectedNodes>
+            <node>3a8a9c2b-fe73-4960-828a-7f4e8d9bced9.TABLE:tickets.hibernate_sequence</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/Jaca.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/dataobject/OrderMaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" selection-start-line="18" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/controller/BuyerTicketCotroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="50" column="74" lean-forward="true" selection-start-line="50" selection-start-column="74" selection-end-line="50" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#listTest#0;class#BuyerTicketCotroller#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/dto/CartDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
         </state>
       </provider>
     </entry>
@@ -1361,30 +1626,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/service/impl/TicketInfoServiceImplTest.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.0.6.RELEASE/14f837d78a638a79f51f1cd9dd8ff80733153530/spring-test-5.0.6.RELEASE-sources.jar!/org/springframework/test/context/TestContextManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="222" column="62" selection-start-line="222" selection-start-column="62" selection-end-line="222" selection-end-column="62" />
+        <state relative-caret-position="155">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
+          <folding>
+            <element signature="e#6444#6445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.0.6.RELEASE/a6817f6de9aaffa7887926fc7cc0865d2adb0d29/spring-aop-5.0.6.RELEASE-sources.jar!/org/springframework/aop/target/SingletonTargetSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
+          <folding>
+            <element signature="e#2071#2072#0" expanded="true" />
+            <element signature="e#2096#2097#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/AirlineInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/TicketInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/impl/AirlineInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#findByAirlineTypeIn#0;class#AirlineInfoServiceImpl#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/repository/AirlineInfoRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="38" />
+        <state relative-caret-position="122">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1398,116 +1700,271 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/dataobject/AirlineInfo.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.0.6.RELEASE/14f837d78a638a79f51f1cd9dd8ff80733153530/spring-test-5.0.6.RELEASE-sources.jar!/org/springframework/test/context/junit4/statements/RunAfterTestExecutionCallbacks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="21" selection-end-column="28" />
+        <state relative-caret-position="148">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="223" selection-start-line="223" selection-end-line="223" />
           <folding>
-            <element signature="method#AirlineInfo#0;class#AirlineInfo#0" expanded="true" />
-            <element signature="method#AirlineInfo#1;class#AirlineInfo#0" expanded="true" />
+            <element signature="e#16374#16734#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/dataobject/TicketInfo.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.0.6.RELEASE/14f837d78a638a79f51f1cd9dd8ff80733153530/spring-test-5.0.6.RELEASE-sources.jar!/org/springframework/test/context/junit4/statements/RunAfterTestMethodCallbacks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="364">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/VO/TicketVO.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.0.6.RELEASE/a6817f6de9aaffa7887926fc7cc0865d2adb0d29/spring-aop-5.0.6.RELEASE-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="347">
+          <caret line="698" selection-start-line="698" selection-end-line="698" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/VO/ResultVO.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/VO/TicketInfoVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/impl/AirlineInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#findByAirlineTypeIn#0;class#AirlineInfoServiceImpl#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
-            <element signature="e#1015#1016#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/enums/TicketStatusEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding>
-            <element signature="method#TicketStatusEnum#0;class#TicketStatusEnum#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/impl/TicketInfoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        <state relative-caret-position="165">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="method#increaseStock#0;class#TicketInfoServiceImpl#0" expanded="true" />
+            <element signature="method#decreaseStock#0;class#TicketInfoServiceImpl#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/AirlineInfoService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/dto/OrderDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        <state relative-caret-position="19">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/TicketInfoService.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/service/impl/TicketInfoServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/repository/TicketInfoRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#saveTest#0;class#TicketInfoRepositoryTest#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/repository/AirlineInfoRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#saveTest#0;class#AirlineInfoRepositoryTest#0" expanded="true" />
+            <element signature="method#findByAirlineTypeInTest#0;class#AirlineInfoRepositoryTest#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/exception/SellException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/repository/OrderMasterRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#saveTest#0;class#OrderMasterRepositoryTest#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/repository/OrderDetailRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/controller/BuyerTicketCotroller.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/utils/KeyUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="method#genUniqueKey#0;class#KeyUtil#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/utils/ResultVOUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="method#success#0;class#ResultVOUtil#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/converter/OrderMaster2OrderDTOconverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#listTest#0;class#BuyerTicketCotroller#0" expanded="true" />
+            <element signature="method#convert#0;class#OrderMaster2OrderDTOconverter#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/repository/OrderDetailRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/repository/OrderMasterRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/2.0.7.RELEASE/ee2183d70b86afa1ab3efe7a7c18a9104fe9a886/spring-data-commons-2.0.7.RELEASE-sources.jar!/org/springframework/data/domain/PageImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+          <folding>
+            <element signature="method#PageImpl#0;class#PageImpl#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/enums/OrderStatusEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="method#OrderStatusEnum#0;class#OrderStatusEnum#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/enums/PayStatusEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="method#PayStatusEnum#0;class#PayStatusEnum#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/enums/ResultEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="method#ResultEnum#0;class#ResultEnum#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sorahjy/buytickets/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="201" column="24" lean-forward="true" selection-start-line="201" selection-start-column="24" selection-end-line="201" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#create#0;class#OrderServiceImpl#0" expanded="true" />
+            <element signature="method#findOne#0;class#OrderServiceImpl#0" expanded="true" />
+            <element signature="method#findList#0;class#OrderServiceImpl#0" expanded="true" />
+            <element signature="method#cancel#0;class#OrderServiceImpl#0" expanded="true" />
+            <element signature="method#finish#0;class#OrderServiceImpl#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sorahjy/buytickets/service/impl/OrderServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="84" column="50" lean-forward="true" selection-start-line="84" selection-start-column="50" selection-end-line="84" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#create#0;class#OrderServiceImplTest#0" expanded="true" />
+            <element signature="method#findOne#0;class#OrderServiceImplTest#0" expanded="true" />
+            <element signature="method#findList#0;class#OrderServiceImplTest#0" expanded="true" />
+            <element signature="method#cancel#0;class#OrderServiceImplTest#0" expanded="true" />
+            <element signature="method#finish#0;class#OrderServiceImplTest#0" expanded="true" />
           </folding>
         </state>
       </provider>

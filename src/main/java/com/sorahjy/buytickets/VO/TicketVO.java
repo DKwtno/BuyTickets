@@ -11,7 +11,7 @@ public class TicketVO {
     @JsonProperty("airlineName")
     private String airlineName;
 
-    private String airlineType;
+    private Integer airlineType;
 
 
     @JsonProperty("tickets")
