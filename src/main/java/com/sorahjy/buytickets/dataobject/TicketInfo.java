@@ -5,6 +5,7 @@ import lombok.Data;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.math.BigDecimal;
+import java.util.Date;
 
 @Entity
 @Data
@@ -19,7 +20,9 @@ public class TicketInfo {
     //airline info 中的 airline Type
     private Integer airlineType;
     // private Integer ticketStatus;
+    private Date takeOff;
 
+    private Date createTime;
 
-
+    private Date updateTime;
 }
