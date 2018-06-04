@@ -6,7 +6,10 @@ public enum ResultEnum {
     PRODUCT_STOCK_ERROR(470,"库存不足"),
     ORDER_NOT_EXIST(471,"订单不存在"),
     ORDER_DETAIL_NOT_EXIST(472,"订单详情存在"),
-    UNKNOWN_ERROR(404,"其他错误");
+    UNKNOWN_ERROR(404,"其他错误"),
+    PARAM_ERROR(403,"参数错误"),
+    CART_EMPTY(401,"购物车空"),
+    ORDER_OWNER_ERROR(402,"订单主任非法"),
     ;
     //TODO 补充并修改一下错误处理
 
