@@ -19,7 +19,14 @@ spring:
         globally_quoted_identifiers: true
   jackson:
     default-property-inclusion: non_null
-
+  application:
+    name: client1
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10000/eureka/,http://localhost:10001/eureka/,http://localhost:10002/eureka/
+#  instance:
+#    hostname: client1
 
 
 #logging:

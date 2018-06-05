@@ -1,5 +1,5 @@
 server:
-  port: 10080
+  port: 10081
   servlet:
     context-path: /tickets
 spring:
@@ -17,17 +17,23 @@ spring:
         use_sql_comments: true
         format_sql: true
         globally_quoted_identifiers: true
-  jackson:
-    default-property-inclusion: non_null
+#  jackson:
+#    default-property-inclusion: non_null
   application:
-    name: client1
+    name: TICKET
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:10000/eureka/,http://localhost:10001/eureka/,http://localhost:10002/eureka/
-#  instance:
-#    hostname: client1
 
+
+
+CLIENT1:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+
+#  instance:
+#    hostname: client2
 
 #logging:
 #  pattern:

@@ -1,6 +1,9 @@
 package com.sorahjy.buytickets.controller;
 
 
+import com.netflix.hystrix.contrib.javanica.annotation.DefaultProperties;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import com.sorahjy.buytickets.VO.ResultVO;
 import com.sorahjy.buytickets.converter.OrderForm2OrderDTOConverter;
 import com.sorahjy.buytickets.dto.OrderDTO;
@@ -31,6 +34,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/buyer/order")
 @Slf4j
+@DefaultProperties(defaultFallback = "defaultFallback")
 public class BuyerOrderController {
 
     @Autowired
@@ -64,8 +68,29 @@ public class BuyerOrderController {
 
     //订单列表
 
+    private String defaultFallback(){
+        return "太拥挤了 ，请稍后再试";
+    }
+
+
+    @GetMapping("/test")
+    @HystrixCommand(commandProperties = {
+        @HystrixProperty(name="execution.isolation.thread.timeoutInMilliseconds",value="2000")
+    })
+    public String getTest(){
+        try{
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            System.out.println("测试：超时错误");
+            // e.printStackTrace();
+        }
+
+        return "OK";
+    }
+
     @GetMapping("/list")
     public ResultVO<List<OrderDTO>> list(@RequestParam("buyerOpenid") String buyerOpenid, @RequestParam(value="page",defaultValue = "0")Integer page,@RequestParam(value="size",defaultValue = "10")Integer size) {
+
 
         if (StringUtils.isEmpty(buyerOpenid)) {
             throw new SellException(ResultEnum.PARAM_ERROR);
