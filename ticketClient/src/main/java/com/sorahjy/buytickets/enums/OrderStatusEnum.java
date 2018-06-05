@@ -1,13 +1,13 @@
 package com.sorahjy.buytickets.enums;
 
-public enum OrderStatusEnum {
-    NEW(0,"新订单"),
-    FINISHED(1,"完成"),
+public enum OrderStatusEnum implements CodeEnum<Integer> {
+    NEW(0,"未完成"),
+    FINISHED(1,"已完成"),
     CANCEL(2,"已取消"),
     ;
 
     private Integer code;
-    private String message;
+    public String message;
 
     public Integer getCode() {
         return code;
@@ -29,4 +29,5 @@ public enum OrderStatusEnum {
         this.code = code;
         this.message = message;
     }
+
 }

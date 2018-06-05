@@ -1,5 +1,6 @@
 package com.sorahjy.buytickets.dto;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
@@ -37,5 +38,13 @@ public class OrderDTO {
     private Date updateTime;
 
     List<OrderDetail> orderDetailList;
+
+    @JsonIgnore //对象转成Json就会忽略
+    public String getOrderStatusEnum(){
+        //TODO此处有bug
+        // return EnumUtil.getByCode(orderStatus,OrderStatusEnum.class);
+        if(orderStatus==0) return "未完成";
+        else return "已完成";
+    }
 
 }
