@@ -10,42 +10,48 @@ buildscript {
     }
 }
 
-apply plugin: 'java'
-apply plugin: 'org.springframework.boot'
-apply plugin: 'io.spring.dependency-management'
+subprojects {
 
-group = 'com.sorahjy'
-version = '0.0.1-SNAPSHOT'
-sourceCompatibility = 1.8
 
-repositories {
+    apply plugin: 'java'
+    apply plugin: 'org.springframework.boot'
+    apply plugin: 'io.spring.dependency-management'
 
-    mavenCentral()
+    group = 'com.sorahjy'
+    version = '0.0.1-SNAPSHOT'
+    sourceCompatibility = 1.8
 
-    maven { url "https://repo.spring.io/libs-milestone" }
-}
+    repositories {
 
-dependencyManagement {
-    imports {
-        mavenBom 'org.springframework.cloud:spring-cloud-dependencies:Finchley.RC2'
+        mavenCentral()
+
+        maven { url "https://repo.spring.io/libs-milestone" }
     }
-}
 
-dependencies {
-    implementation('org.springframework.boot:spring-boot-starter-web')
-    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
-    implementation("org.springframework.boot:spring-boot-starter-aop")
-    implementation('com.google.code.gson:gson')
-    implementation( 'org.springframework.cloud:spring-cloud-starter-config')
-    implementation( 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client')
-    implementation('org.springframework.cloud:spring-cloud-starter-netflix-eureka-server')
-    implementation("org.springframework.cloud:spring-cloud-starter-openfeign")
-    implementation("org.springframework.cloud:spring-cloud-starter-netflix-hystrix")
-    implementation("org.springframework.cloud:spring-cloud-starter-stream-rabbit")
+    dependencyManagement {
+        imports {
+            mavenBom 'org.springframework.cloud:spring-cloud-dependencies:Finchley.RC2'
+        }
+    }
+
+    dependencies {
+        implementation('org.springframework.boot:spring-boot-starter-web')
+        implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+        implementation("org.springframework.boot:spring-boot-starter-aop")
+        implementation('com.google.code.gson:gson')
+        implementation('org.springframework.cloud:spring-cloud-starter-config')
+        implementation('org.springframework.cloud:spring-cloud-starter-netflix-eureka-client')
+        implementation('org.springframework.cloud:spring-cloud-starter-netflix-eureka-server')
+        implementation("org.springframework.cloud:spring-cloud-starter-openfeign")
+        implementation("org.springframework.cloud:spring-cloud-starter-netflix-hystrix")
+        implementation("org.springframework.cloud:spring-cloud-starter-stream-rabbit")
 
 
-    implementation("com.h2database:h2")
-    implementation("org.projectlombok:lombok:1.12.6")
-    runtime('mysql:mysql-connector-java')
-    testImplementation('org.springframework.boot:spring-boot-starter-test')
+        implementation("com.h2database:h2")
+        implementation("org.projectlombok:lombok:1.12.6")
+        runtime('mysql:mysql-connector-java')
+        testImplementation('org.springframework.boot:spring-boot-starter-test')
+    }
+
+
 }
