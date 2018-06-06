@@ -2,6 +2,7 @@ package com.sorahjy.buytickets.controller;
 
 
 import com.sorahjy.buytickets.dto.OrderDTO;
+import com.sorahjy.buytickets.exception.SellException;
 import com.sorahjy.buytickets.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -32,6 +33,21 @@ public class SellerOrderController {
          map.put("currentPage",page);
          map.put("size",size);
         return new ModelAndView("order/list",map);
+    }
+
+    @GetMapping("/detail")
+    public ModelAndView detail(@RequestParam("orderId") String orderId,
+                               Map<String, Object> map) {
+        OrderDTO orderDTO=new OrderDTO();
+        try {
+            orderDTO=orderService.findOne(orderId);
+        }catch (SellException e){
+            map.put("msg ",e.getMessage());
+            map.put("url", "/tickets/seller/order/list");
+            return new ModelAndView("commom/error");
+        }
+        map.put("orderDTO",orderDTO);
+        return new ModelAndView("order/detail",map);
     }
 
 }
