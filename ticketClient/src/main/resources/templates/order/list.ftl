@@ -16,9 +16,9 @@
         <div class="col-md-12 column">
           <table class="table table-bordered table-condensed">
             <thead>
-            <tr>
+            <tr class="success">
               <th>订单Id</th>
-              <th>姓名</th>
+              <th>姓名</th>+
               <th>手机号</th>
               <th>金额</th>
               <th>支付状态</th>
@@ -29,7 +29,7 @@
             <tbody>
         <#list orderDTOPage.content as orderDTO>
 
-        <tr>
+        <tr  class="table">
           <td>
               ${orderDTO.orderId}
           </td>
@@ -40,10 +40,20 @@
               ${orderDTO.buyerPhone}
           </td>
           <td>${orderDTO.orderAmount}</td>
-          <td>${orderDTO.getOrderStatus()}</td>
+          <td>${orderDTO.getOrderStatusEnum()}</td>
           <td>${orderDTO.createTime}</td>
-          <td>详情</td>
-          <td>取消</td>
+          <td>
+
+            <a href="/tickets/seller/order/detail?orderId=${orderDTO.orderId}">详情</a>
+
+          </td>
+          <td>
+
+            <#if orderDTO.getOrderStatusEnum()!="已取消">
+                <a href="/tickets/seller/order/cancel?orderId=${orderDTO.orderId}">取消</a>
+            </#if>
+
+          </td>
         </tr>
         </#list>
             </tbody>

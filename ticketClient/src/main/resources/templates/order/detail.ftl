@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<head xmlns="http://www.w3.org/1999/html">
+
 
       <#include "../common/header.ftl">
 
-</head>
 <body>
 
 
@@ -35,6 +34,14 @@
         </tbody>
       </table>
     </div>
+
+
+      <div class="column pull-right">
+        <a href="./list"
+            type="button"
+            class="btn btn-default btn-info">返回上一页
+        </a>
+      </div>
 
 
     <div class="col-md-12 column">
@@ -79,6 +86,10 @@
               type="button"
               class="btn btn-default btn-danger">取消订单
           </button>
+
+
+
+
         </div>
       </div>
 

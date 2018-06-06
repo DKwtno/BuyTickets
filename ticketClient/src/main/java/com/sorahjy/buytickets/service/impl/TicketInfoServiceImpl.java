@@ -41,9 +41,16 @@ public class TicketInfoServiceImpl implements TicketInfoService {
     }
 
     @Override
+    @Transactional
     public void increaseStock(final List<CartDTO> cartDTOList) {
-
+        for (CartDTO cartDTO : cartDTOList) {
+            TicketInfo ticketInfo=repository.findById(cartDTO.getTicketId()).get();
+            Integer result=ticketInfo.getTicketStock()+cartDTO.getTicketQuantity();
+            ticketInfo.setTicketStock(result);
+            repository.save(ticketInfo);
+        }
     }
+
 
     @Override
     @Transactional

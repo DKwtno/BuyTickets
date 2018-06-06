@@ -15,6 +15,7 @@ import com.sorahjy.buytickets.repository.OrderMasterRepository;
 import com.sorahjy.buytickets.service.OrderService;
 import com.sorahjy.buytickets.service.TicketInfoService;
 import com.sorahjy.buytickets.utils.KeyUtil;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -30,6 +31,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
+@Slf4j
 public class OrderServiceImpl implements OrderService {
 
     @Autowired
@@ -137,16 +139,39 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public OrderDTO cancel(final OrderDTO orderDTO) {
-        //TODO 取消订单 6-8
+        OrderMaster orderMaster=new OrderMaster();
+
+
         //判断订单状态
 
+        if (!orderDTO.getOrderStatus().equals(OrderStatusEnum.NEW.getCode())) {
+            log.error("只有新订单可以取消");
+            throw new SellException(ResultEnum.UNKNOWN_ERROR);
+        }
+
         //修改订单状态
+        orderDTO.setOrderStatus(OrderStatusEnum.CANCEL.getCode());
+        BeanUtils.copyProperties(orderDTO, orderMaster);
+        OrderMaster updateResult=orderMasterRepository.save(orderMaster);
+        if (updateResult == null) {
+            throw new SellException(ResultEnum.ORDER_NOT_EXIST);
+        }
 
         //返回库存
 
-        //如果已支付，需要退款
+        if (CollectionUtils.isEmpty(orderDTO.getOrderDetailList())) {
+            throw new SellException(ResultEnum.CART_EMPTY);
+        }
+        List<CartDTO> cartDTOList=orderDTO.getOrderDetailList().stream()
+            .map(e->new CartDTO(e.getTicketId(),e.getTicketQuantity()))
+            .collect(Collectors.toList());
 
-        return null;
+        ticketInfoService.increaseStock(cartDTOList);
+
+
+        //TODO 如果已支付，需要退款
+
+        return orderDTO;
     }
 
 

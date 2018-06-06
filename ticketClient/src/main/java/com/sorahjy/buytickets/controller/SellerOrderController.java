@@ -2,6 +2,7 @@ package com.sorahjy.buytickets.controller;
 
 
 import com.sorahjy.buytickets.dto.OrderDTO;
+import com.sorahjy.buytickets.enums.ResultEnum;
 import com.sorahjy.buytickets.exception.SellException;
 import com.sorahjy.buytickets.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -48,6 +49,24 @@ public class SellerOrderController {
         }
         map.put("orderDTO",orderDTO);
         return new ModelAndView("order/detail",map);
+    }
+
+    @GetMapping("/cancel")
+    public ModelAndView cancel(@RequestParam("orderId")String orderId,
+                               Map<String,Object> map){
+
+        try{
+            OrderDTO orderDTO = orderService.findOne(orderId);
+            orderService.cancel(orderDTO);
+
+        }catch (SellException e){
+            map.put("msg", ResultEnum.insufficient_privileges.getMesssage());
+            map.put("url", "/tickets/seller/order/list");
+            return new ModelAndView("common/error");
+        }
+        map.put("msg", "成功取消订单");
+        map.put("url", "/tickets/seller/order/list");
+        return new ModelAndView("common/success");
     }
 
 }

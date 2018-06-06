@@ -10,6 +10,7 @@ public enum ResultEnum {
     PARAM_ERROR(403,"参数错误"),
     CART_EMPTY(401,"购物车空"),
     ORDER_OWNER_ERROR(402,"订单主任非法"),
+    insufficient_privileges(405,"权限不足！已完成订单需要高级管理员取消！"),
     ;
     //TODO 补充并修改一下错误处理
 

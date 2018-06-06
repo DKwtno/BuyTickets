@@ -44,7 +44,8 @@ public class OrderDTO {
         //TODO此处有bug
         // return EnumUtil.getByCode(orderStatus,OrderStatusEnum.class);
         if(orderStatus==0) return "未完成";
-        else return "已完成";
+        else if(orderStatus==1) return "已完成";
+        else return "已取消";
     }
 
 }
