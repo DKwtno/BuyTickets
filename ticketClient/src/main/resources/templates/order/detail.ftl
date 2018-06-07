@@ -83,6 +83,7 @@
               class="btn btn-default btn-success">完成订单
           </button>
           <button
+                  href="/tickets/seller/order/cancel?orderId=${orderDTO.orderId}"
               type="button"
               class="btn btn-default btn-danger">取消订单
           </button>
@@ -101,4 +102,9 @@
 
 
 </body>
+
+
+<script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+
+
 </html>

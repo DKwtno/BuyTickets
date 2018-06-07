@@ -39,8 +39,9 @@
           <td>${ticketInfo.ticketPrice}</td>
           <td>${ticketInfo.ticketStock}</td>
           <td>${ticketInfo.airlineType}</td>
-          <td>修改</td>
-          <td>下架</td>
+          <td><a href="#" >修改</a></td>
+          <td>
+            <a href="#">删除</a></td>
         </tr>
         </#list>
             </tbody>
@@ -93,9 +94,8 @@
 
 
 </div>
-
-
 </body>
+<script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
 
 </html>
 
