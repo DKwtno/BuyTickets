@@ -11,7 +11,7 @@
   <div class="container-fluid">
   <div class="row clearfix">
     <div class="col-md-6 column">
-      <form role="form">
+      <form role="form"  method="post" action="/tickets/seller/ticket/save">
         <div class="form-group">
           <label>始发城市</label>
           <input name="ticketDepart" type="text" class="form-control"
@@ -48,21 +48,27 @@
 
         <div class="form-group">
           <label>航空公司</label>
-          <select name="airlineType" class="form-control" id="">
+          <select name="airlineType" class="form-control">
             <#list airlineInfoList as airlineInfo>
-              <option value="${airlineInfo.airlineType}">
+              <option value="${airlineInfo.airlineType}"
                 ${airlineInfo.airlineName}
+                 <#if (ticketInfo.airlineType)?? && ticketInfo.airlineType == airlineInfo.airlineType> selected
+                 </#if>
+                >${airlineInfo.airlineName}
               </option>
             </#list>
           </select>
         </div>
 
-        <div>
+        <div class="form-group">
           <label>起飞时间</label>
-          <input type="date" name="takeOff" class="form-control"
+          <input
+              name="takeOff" type="datetime-local"  class="form-control"
           value="${(ticketInfo.takeOff)!''}">
         </div>
 
+
+        <input hidden type="text" name="ticketId" value="${(ticketInfo.ticketId)!''}">
         <button
             type="submit"
             class="btn btn-default btn-warning">Submit

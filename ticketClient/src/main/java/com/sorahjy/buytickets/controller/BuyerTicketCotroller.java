@@ -10,6 +10,7 @@ import com.sorahjy.buytickets.service.TicketInfoService;
 import com.sorahjy.buytickets.utils.ResultVOUtil;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CachePut;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -30,6 +31,7 @@ public class BuyerTicketCotroller {
     private AirlineInfoService airlineInfoService;
 
     @GetMapping("/list")
+    @CachePut(cacheNames = "buyerTikectlist", key = "345")
     public ResultVO list() {
 
         // 查询所有上架的商品

@@ -19,6 +19,7 @@ public class AirlineInfoServiceImpl implements AirlineInfoService {
 
     @Override
     public AirlineInfo findOne(final Integer airlineId) {
+        log.info(airlineId.toString());
         return repository.findById(airlineId).get();
     }
 
@@ -34,6 +35,6 @@ public class AirlineInfoServiceImpl implements AirlineInfoService {
 
     @Override
     public AirlineInfo save(final AirlineInfo airlineInfo) {
-        return save(airlineInfo);
+        return repository.save(airlineInfo);
     }
 }

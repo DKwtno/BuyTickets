@@ -7,6 +7,10 @@
     <bytecodeTargetLevel>
       <module name="buytickets_main" target="1.8" />
       <module name="buytickets_test" target="1.8" />
+      <module name="EA_main" target="1.8" />
+      <module name="EA_test" target="1.8" />
+      <module name="U_main" target="1.8" />
+      <module name="U_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

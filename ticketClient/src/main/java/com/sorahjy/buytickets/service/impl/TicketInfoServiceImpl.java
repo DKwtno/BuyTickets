@@ -22,7 +22,7 @@ public class TicketInfoServiceImpl implements TicketInfoService {
 
     @Override
     public TicketInfo findOne(final String ticketId) {
-        return repository.findById(ticketId).get();
+            return repository.findById(ticketId).get();
     }
 
     @Override
@@ -39,6 +39,7 @@ public class TicketInfoServiceImpl implements TicketInfoService {
     public TicketInfo save(final TicketInfo ticketInfo) {
         return repository.save(ticketInfo);
     }
+
 
     @Override
     @Transactional

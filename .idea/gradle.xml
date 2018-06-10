@@ -10,6 +10,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ConfigCenter" />
+            <option value="$PROJECT_DIR$/EAL" />
+            <option value="$PROJECT_DIR$/JAL" />
+            <option value="$PROJECT_DIR$/USSTAL" />
             <option value="$PROJECT_DIR$/ticketClient" />
             <option value="$PROJECT_DIR$/ticketServer" />
           </set>

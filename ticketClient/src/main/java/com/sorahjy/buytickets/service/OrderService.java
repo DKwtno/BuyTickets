@@ -6,6 +6,8 @@ import org.springframework.data.domain.Pageable;
 
 public interface OrderService {
 
+    OrderDTO searchOne(String orderId);
+
     //创建订单
     OrderDTO create(OrderDTO orderDTO);
 

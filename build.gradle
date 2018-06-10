@@ -44,9 +44,9 @@ subprojects {
         implementation('org.springframework.cloud:spring-cloud-starter-netflix-eureka-server')
         implementation("org.springframework.cloud:spring-cloud-starter-openfeign")
         implementation("org.springframework.cloud:spring-cloud-starter-netflix-hystrix")
-        implementation("org.springframework.cloud:spring-cloud-starter-stream-rabbit")
-
-
+//         implementation("org.springframework.cloud:spring-cloud-starter-stream-rabbit")
+        implementation("org.springframework.boot:spring-boot-starter-data-redis")
+        implementation("org.springframework.boot:spring-boot-starter-websocket")
         implementation("com.h2database:h2")
         implementation("org.projectlombok:lombok:1.12.6")
         runtime('mysql:mysql-connector-java')

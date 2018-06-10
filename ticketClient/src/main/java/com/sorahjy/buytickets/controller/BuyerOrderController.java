@@ -15,6 +15,7 @@ import com.sorahjy.buytickets.service.OrderService;
 import com.sorahjy.buytickets.utils.ResultVOUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.util.CollectionUtils;
@@ -89,6 +90,7 @@ public class BuyerOrderController {
     }
 
     @GetMapping("/list")
+    @Cacheable(cacheNames = "buyer",key = "123")
     public ResultVO<List<OrderDTO>> list(@RequestParam("buyerOpenid") String buyerOpenid, @RequestParam(value="page",defaultValue = "0")Integer page,@RequestParam(value="size",defaultValue = "10")Integer size) {
 
 

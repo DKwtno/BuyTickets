@@ -21,6 +21,9 @@ spring:
 #    default-property-inclusion: non_null
   application:
     name: TICKET
+  redis:
+    host: 127.0.0.1
+    port: 6379
 eureka:
   client:
     service-url:

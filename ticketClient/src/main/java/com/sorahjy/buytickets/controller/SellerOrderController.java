@@ -6,6 +6,7 @@ import com.sorahjy.buytickets.enums.ResultEnum;
 import com.sorahjy.buytickets.exception.SellException;
 import com.sorahjy.buytickets.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Controller;
@@ -24,6 +25,7 @@ public class SellerOrderController {
     private OrderService orderService;
 
     @GetMapping("/list")
+    @CacheEvict(cacheNames = "order",key="123")
     public ModelAndView list(@RequestParam(value="page",defaultValue = "1")Integer page,
                              @RequestParam(value = "size",defaultValue = "10")Integer size,
                              Map<String,Object> map){

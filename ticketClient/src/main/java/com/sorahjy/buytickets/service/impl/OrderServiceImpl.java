@@ -13,6 +13,7 @@ import com.sorahjy.buytickets.exception.SellException;
 import com.sorahjy.buytickets.repository.OrderDetailRepository;
 import com.sorahjy.buytickets.repository.OrderMasterRepository;
 import com.sorahjy.buytickets.service.OrderService;
+import com.sorahjy.buytickets.service.RedisLock;
 import com.sorahjy.buytickets.service.TicketInfoService;
 import com.sorahjy.buytickets.utils.KeyUtil;
 import lombok.extern.slf4j.Slf4j;
@@ -33,6 +34,11 @@ import java.util.stream.Collectors;
 @Service
 @Slf4j
 public class OrderServiceImpl implements OrderService {
+
+    private static final int TIMEOUT=1000*5;
+
+    @Autowired
+    private RedisLock redisLock;
 
     @Autowired
     private TicketInfoService ticketInfoService;
@@ -104,6 +110,10 @@ public class OrderServiceImpl implements OrderService {
     @Override
     public OrderDTO findOne(final String orderId) {
 
+        long time=System.currentTimeMillis()+TIMEOUT;
+
+        if(!redisLock.lock(orderId,String.valueOf(time)))
+            throw new SellException(444,"服务忙，请稍后再试");
         OrderMaster orderMaster = orderMasterRepository.findById(orderId).get();
 
         if(orderMaster==null){
@@ -119,8 +129,32 @@ public class OrderServiceImpl implements OrderService {
         BeanUtils.copyProperties(orderMaster,orderDTO);
         orderDTO.setOrderDetailList(orderDetailList);
 
+        redisLock.unlock(orderId,String.valueOf(time));
+
         return orderDTO;
     }
+
+    @Override
+    public OrderDTO searchOne(final String orderId) {
+
+        OrderMaster orderMaster = orderMasterRepository.findById(orderId).get();
+
+        if (orderMaster == null) {
+            throw new SellException(ResultEnum.ORDER_NOT_EXIST);
+        }
+
+        List<OrderDetail> orderDetailList = orderDetailRepository.findByOrderId(orderId);
+        if (CollectionUtils.isEmpty(orderDetailList)) {
+            throw new SellException(ResultEnum.ORDER_DETAIL_NOT_EXIST);
+        }
+
+        OrderDTO orderDTO = new OrderDTO();
+        BeanUtils.copyProperties(orderMaster, orderDTO);
+        orderDTO.setOrderDetailList(orderDetailList);
+
+        return orderDTO;
+    }
+
 
     @Override
     public Page<OrderDTO> findList(final String buyerOpenid, final Pageable pageable) {

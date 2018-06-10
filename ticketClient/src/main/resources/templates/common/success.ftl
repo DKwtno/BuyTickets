@@ -20,7 +20,7 @@
             aria-hidden="true">×
         </button>
         <h4>
-          成功! </h4> <strong>${msg}</strong>
+          成功! </h4> <strong>您的操作已提交</strong>
 
         <a
             href="${url}"

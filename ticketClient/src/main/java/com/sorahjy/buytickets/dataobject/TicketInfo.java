@@ -6,6 +6,7 @@ import org.hibernate.annotations.DynamicUpdate;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 @Entity
@@ -22,9 +23,21 @@ public class TicketInfo {
     //airline info 中的 airline Type
     private Integer airlineType;
     // private Integer ticketStatus;
-    private Date takeOff;
+
+    // @DateTimeFormat(pattern = "yyyy-MM-dd'T'hh-mm-ss")
+    private LocalDateTime takeOff;
 
     private Date createTime;
 
     private Date updateTime;
+
+
+
+    // public void setTakeOff(final String takeOff) {
+    //     DateTimeFormatter df = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+    //     this.takeOff = LocalDateTime.parse(takeOff, df);
+    // }
+
+
+
 }

@@ -28,4 +28,7 @@ public class AirlineInfo {
         this.airlineName = airlineName;
         this.airlineType = airlineType;
     }
+
+
+
 }
