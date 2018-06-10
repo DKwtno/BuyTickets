@@ -1,194 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b9f7caa-92b3-48d4-91ef-fc403b4c0922" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/EALApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/VO/ResultVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/VO/TicketInfoVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/VO/TicketVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/config/RestTemplateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/controller/SellerTicketController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/converter/OrderForm2OrderDTOConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/converter/OrderMaster2OrderDTOconverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/dataobject/AirlineInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/dataobject/BuyerInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/dataobject/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/dataobject/OrderMaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/dataobject/TicketInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/dto/CartDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/dto/OrderDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/enums/CodeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/enums/OrderStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/enums/PayStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/enums/ResultEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/enums/TicketStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/exception/SellException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/form/CategoryForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/form/OrderForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/form/TicketForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/repository/AirlineInfoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/repository/BuyerInfoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/repository/OrderDetailRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/repository/OrderMasterRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/repository/TicketInfoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/service/AirlineInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/service/BuyerLoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/service/BuyerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/service/RedisLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/service/TicketInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/service/impl/AirlineInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/service/impl/BuyerLoginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/service/impl/BuyerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/service/impl/TicketInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/utils/EnumUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/utils/KeyUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/utils/ResultVOUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/utils/serializer/Date2LongSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/resources/application-eal.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/resources/application-eal2.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/resources/static/img/bzhan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/resources/templates/common/error.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/resources/templates/common/header.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/resources/templates/common/nav.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/resources/templates/common/success.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/resources/templates/ticket/add.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/resources/templates/ticket/index.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EAL/src/main/resources/templates/ticket/list.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/JALApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/VO/ResultVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/VO/TicketInfoVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/VO/TicketVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/config/RestTemplateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/controller/SellerTicketController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/converter/OrderForm2OrderDTOConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/converter/OrderMaster2OrderDTOconverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/dataobject/AirlineInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/dataobject/BuyerInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/dataobject/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/dataobject/OrderMaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/dataobject/TicketInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/dto/CartDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/dto/OrderDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/enums/CodeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/enums/OrderStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/enums/PayStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/enums/ResultEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/enums/TicketStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/exception/SellException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/form/CategoryForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/form/OrderForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/form/TicketForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/repository/AirlineInfoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/repository/BuyerInfoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/repository/OrderDetailRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/repository/OrderMasterRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/repository/TicketInfoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/service/AirlineInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/service/BuyerLoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/service/BuyerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/service/RedisLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/service/TicketInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/service/impl/AirlineInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/service/impl/BuyerLoginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/service/impl/BuyerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/service/impl/TicketInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/utils/EnumUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/utils/KeyUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/utils/ResultVOUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/utils/serializer/Date2LongSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/resources/application-jal.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/resources/application-jal2.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/resources/static/img/bzhan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/resources/templates/common/error.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/resources/templates/common/header.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/resources/templates/common/nav.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/resources/templates/common/success.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/resources/templates/ticket/add.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/resources/templates/ticket/index.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAL/src/main/resources/templates/ticket/list.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/USSTALApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/VO/ResultVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/VO/TicketInfoVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/VO/TicketVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/config/RestTemplateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/controller/SellerTicketController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/converter/OrderForm2OrderDTOConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/converter/OrderMaster2OrderDTOconverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/dataobject/AirlineInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/dataobject/BuyerInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/dataobject/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/dataobject/OrderMaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/dataobject/TicketInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/dto/CartDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/dto/OrderDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/enums/CodeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/enums/OrderStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/enums/PayStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/enums/ResultEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/enums/TicketStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/exception/SellException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/form/CategoryForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/form/OrderForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/form/TicketForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/repository/AirlineInfoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/repository/BuyerInfoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/repository/OrderDetailRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/repository/OrderMasterRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/repository/TicketInfoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/service/AirlineInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/service/BuyerLoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/service/BuyerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/service/RedisLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/service/TicketInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/service/impl/AirlineInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/service/impl/BuyerLoginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/service/impl/BuyerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/service/impl/TicketInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/utils/EnumUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/utils/KeyUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/utils/ResultVOUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/utils/serializer/Date2LongSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/resources/application-usstal.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/resources/application-usstal2.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/resources/static/img/bzhan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/resources/templates/common/error.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/resources/templates/common/header.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/resources/templates/common/nav.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/resources/templates/common/success.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/resources/templates/ticket/add.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/resources/templates/ticket/index.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USSTAL/src/main/resources/templates/ticket/list.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/SellerTicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/SellerTicketController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/dataobject/TicketInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/dataobject/TicketInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/form/TicketForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/form/TicketForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/TicketInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/TicketInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/impl/TicketInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/impl/TicketInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketClient/src/main/resources/templates/category/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/src/main/resources/templates/category/list.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/nav.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/nav.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketClient/src/main/resources/templates/ticket/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/src/main/resources/templates/ticket/list.ftl" afterDir="false" />
-    </list>
+    <list default="true" id="1b9f7caa-92b3-48d4-91ef-fc403b4c0922" name="Default" comment="更新了航空公司" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -329,8 +142,8 @@
       <file leaf-file-name="list.ftl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/USSTAL/src/main/resources/templates/ticket/list.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+            <state relative-caret-position="177">
+              <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -2072,7 +1885,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
@@ -2489,7 +2302,7 @@
       <workItem from="1528363678552" duration="12429000" />
       <workItem from="1528433097156" duration="19877000" />
       <workItem from="1528555511712" duration="9466000" />
-      <workItem from="1528632283801" duration="7423000" />
+      <workItem from="1528632283801" duration="7840000" />
     </task>
     <task id="LOCAL-00001" summary="更新部分repository">
       <created>1527910648196</created>
@@ -2575,7 +2388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528594420358</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="更新了航空公司">
+      <created>1528642869452</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1528642869452</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2611,7 +2431,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173421000" />
+    <option name="totallyTimeSpent" value="173838000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -2624,7 +2444,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="13" />
       <window_info anchor="right" id="Palette" order="4" />
@@ -2687,7 +2506,8 @@
     <MESSAGE value="完成了管理员/用户取消订单的所有逻辑。&#10;补全了管理员端" />
     <MESSAGE value="服务器端完善手动新增机票功能" />
     <MESSAGE value="完成卖家端的后端+前端。使用了分布式锁+redis缓存" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成卖家端的后端+前端。使用了分布式锁+redis缓存" />
+    <MESSAGE value="更新了航空公司" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新了航空公司" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3210,8 +3030,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/USSTAL/src/main/resources/templates/ticket/list.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+        <state relative-caret-position="177">
+          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
         </state>
       </provider>
     </entry>
