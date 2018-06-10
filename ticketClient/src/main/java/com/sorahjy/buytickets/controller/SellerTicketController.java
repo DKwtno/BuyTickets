@@ -108,9 +108,10 @@ public class SellerTicketController {
 
             BeanUtils.copyProperties(form, ticketInfo);
 
-
-
-            ticketInfo.setTakeOff(localDateTime);
+            String time = form.getTakeOff();
+            DateTimeFormatter df = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss");
+            LocalDateTime localDateTime2 = LocalDateTime.parse(time + ":00", df);
+            ticketInfo.setTakeOff(localDateTime2);
             ticketInfoService.save(ticketInfo);
         } catch (SellException e) {
             map.put("msg", e.getMessage());
@@ -132,16 +133,14 @@ public class SellerTicketController {
         log.error(form.toString());
 
         TicketInfo ticketInfo = new TicketInfo();
-        LocalDateTime localDateTime = ticketInfo.getTakeOff();
+        String time=form.getTakeOff();
 
         try {
 
 
             BeanUtils.copyProperties(form, ticketInfo);
-            if(localDateTime==null){
-                DateTimeFormatter df = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-                localDateTime = LocalDateTime.parse("2018-02-03 01:01:12", df);
-            }
+            DateTimeFormatter df = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss");
+            LocalDateTime localDateTime = LocalDateTime.parse(time+":00", df);
             ticketInfo.setTakeOff(localDateTime);
             ticketInfoService.save(ticketInfo);
         } catch (SellException e) {
@@ -153,6 +152,12 @@ public class SellerTicketController {
         map.put("url", "/tickets/seller/ticket/list");
         return new ModelAndView("common/success", map);
 
+    }
+    @GetMapping("/del")
+    public ModelAndView del(@RequestParam(value = "ticketId", required = true)String ticketId, Map<String, Object> map){
+        ticketInfoService.deleteTicket(ticketId);
+        map.put("url", "/tickets/seller/ticket/list");
+        return new ModelAndView("common/success", map);
     }
 
 }

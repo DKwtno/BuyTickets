@@ -18,7 +18,7 @@
         <div class="col-md-12 column">
           <table class="table table-bordered table-condensed">
             <thead>
-            <tr>
+            <tr class="success">
               <th>航空公司Id</th>
               <th>航空公司名</th>
               <th>航空公司编号</th>
@@ -30,7 +30,7 @@
             <tbody>
         <#list airlineInfoList as airlineInfo>
 
-        <tr>
+        <tr class="warning">
 
           <td>${airlineInfo.airlineId}</td>
           <td>${airlineInfo.airlineName}</td>

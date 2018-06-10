@@ -8,15 +8,19 @@
 
   <#include "../common/nav.ftl" >
 
+
+
+
+
   <div id="page-content-wrapper">
 
 
     <div class="container-fluid">
       <div class="row clearfix">
         <div class="col-md-12 column">
-          <table class="table table-bordered table-condensed">
+          <table class="table table-striped table-condensed">
             <thead>
-            <tr>
+            <tr class="success">
               <th>机票Id</th>
               <th>始发地</th>
               <th>到达地</th>
@@ -30,7 +34,7 @@
             <tbody>
         <#list ticketInfoPage.content as ticketInfo>
 
-        <tr>
+        <tr class="warning">
 
           <td>${ticketInfo.ticketId}</td>
           <td>${ticketInfo.ticketDepart}</td>
@@ -41,7 +45,7 @@
           <td>${ticketInfo.airlineType}</td>
           <td><a href="/tickets/seller/ticket/index/?ticketId=${ticketInfo.ticketId}" >修改</a></td>
           <td>
-            <a href="#">删除</a></td>
+            <a href="/tickets/seller/ticket/del/?ticketId=${ticketInfo.ticketId}">删除</a></td>
         </tr>
         </#list>
             </tbody>

@@ -71,4 +71,9 @@ public class TicketInfoServiceImpl implements TicketInfoService {
         }
 
     }
+
+    @Override
+    public void deleteTicket(final String ticketid) {
+        repository.deleteById(ticketid);
+    }
 }

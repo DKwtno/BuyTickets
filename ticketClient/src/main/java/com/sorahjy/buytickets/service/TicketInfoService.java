@@ -2,7 +2,6 @@ package com.sorahjy.buytickets.service;
 
 import com.sorahjy.buytickets.dataobject.TicketInfo;
 import com.sorahjy.buytickets.dto.CartDTO;
-import com.sorahjy.buytickets.dto.OrderDTO;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
@@ -17,6 +16,6 @@ public interface TicketInfoService {
     void increaseStock(List<CartDTO> cartDTOList);
     void decreaseStock(List<CartDTO> cartDTOList);
 
-
+    void deleteTicket (String ticketid);
 
 }

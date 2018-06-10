@@ -1,0 +1,48 @@
+server:
+  port: 10101
+  servlet:
+    context-path: /usstal
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/tickets?useSSL=false&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 286956679hjy
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        use_sql_comments: true
+        format_sql: true
+        globally_quoted_identifiers: true
+#  jackson:
+#    default-property-inclusion: non_null
+  application:
+    name: USSTAL
+  redis:
+    host: 127.0.0.1
+    port: 6379
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10000/eureka/,http://localhost:10001/eureka/,http://localhost:10002/eureka/
+#  instance:
+#    hostname: client1
+
+
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+#  level: debug
+#  file: /var/log/tomcat/sell.log
+#  path: /var/log/tomcat/
+
+
+
+#user:
+#  id: 123
+#    name: hjy
+
+
