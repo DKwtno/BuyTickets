@@ -14,6 +14,8 @@
             <option value="$PROJECT_DIR$/EAL" />
             <option value="$PROJECT_DIR$/JAL" />
             <option value="$PROJECT_DIR$/USSTAL" />
+            <option value="$PROJECT_DIR$/bank_client" />
+            <option value="$PROJECT_DIR$/bank_server" />
             <option value="$PROJECT_DIR$/ticketClient" />
             <option value="$PROJECT_DIR$/ticketServer" />
           </set>

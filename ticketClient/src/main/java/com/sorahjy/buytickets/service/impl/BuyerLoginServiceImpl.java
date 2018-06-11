@@ -17,4 +17,9 @@ public class BuyerLoginServiceImpl implements BuyerLoginService {
 
         return buyerInfoRepository.findByBuyerOpenid(buyerOpenid);
     }
+
+    @Override
+    public BuyerInfo save(final BuyerInfo buyerInfo) {
+        return buyerInfoRepository.save(buyerInfo);
+    }
 }

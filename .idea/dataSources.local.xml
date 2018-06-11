@@ -9,7 +9,17 @@
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
-      <introspection-schemas>*:tickets,user</introspection-schemas>
+      <introspection-schemas>*:bank_rpc,tickets,user</introspection-schemas>
+    </data-source>
+    <data-source name="sorahjy.com" uuid="ff6b6ce5-6f71-49f1-8012-c87611577ef3">
+      <database-info product="MySQL" version="5.7.21" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>sorahjy</user-name>
+      <introspection-schemas>*:bank_rpc</introspection-schemas>
     </data-source>
   </component>
 </project>

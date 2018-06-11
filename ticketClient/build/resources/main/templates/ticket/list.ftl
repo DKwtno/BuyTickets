@@ -43,7 +43,7 @@
           <td>${ticketInfo.ticketPrice}</td>
           <td>${ticketInfo.ticketStock}</td>
           <td>${ticketInfo.airlineType}</td>
-          <td><a href="/tickets/seller/ticket/index/?ticketId=${ticketInfo.ticketId}" >修改</a></td>
+          <td><a href="/tickets/index/ticket/index/?ticketId=${ticketInfo.ticketId}" >修改</a></td>
           <td>
             <a href="/tickets/seller/ticket/del/?ticketId=${ticketInfo.ticketId}">删除</a></td>
         </tr>

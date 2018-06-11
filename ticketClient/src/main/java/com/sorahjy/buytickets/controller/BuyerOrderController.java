@@ -90,7 +90,7 @@ public class BuyerOrderController {
     }
 
     @GetMapping("/list")
-    @Cacheable(cacheNames = "buyer",key = "123")
+    @Cacheable(cacheNames = "buyer",key = "orderlist")
     public ResultVO<List<OrderDTO>> list(@RequestParam("buyerOpenid") String buyerOpenid, @RequestParam(value="page",defaultValue = "0")Integer page,@RequestParam(value="size",defaultValue = "10")Integer size) {
 
 

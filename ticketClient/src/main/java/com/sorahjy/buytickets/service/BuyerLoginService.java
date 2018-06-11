@@ -6,5 +6,6 @@ public interface BuyerLoginService {
 
     public BuyerInfo findBuyerInfoByBuyerOpenid(String buyerOpenid);
 
+    BuyerInfo save(BuyerInfo buyerInfo);
 
 }

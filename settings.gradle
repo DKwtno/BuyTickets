@@ -6,3 +6,6 @@ include 'JAL'
 include 'USSTAL'
 include 'EAL'
 include 'ConfigCenter'
+include 'bank_server'
+include 'bank_client'
+

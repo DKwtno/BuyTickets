@@ -30,7 +30,7 @@
         <div class="form-group">
           <label>价格</label>
           <input
-              name="ticketPrice"
+              name="ticketPrice"∑
               type="text"
               class="form-control"
               value="${(ticketInfo.ticketPrice)!''}"/>
