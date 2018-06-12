@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-    <#include "../common/header.ftl">
+    <#include "../common/header_user.ftl">
 
 <body>
 
@@ -9,7 +9,7 @@
     id="wrapper"
     class="toggled">
 
-  <#include "../common/nav.ftl" >
+  <#include "../common/nav_user.ftl" >
   <div class="row clearfix">
     <div class="col-md-12 column">
       <div class="alert alert-dismissable alert-success">

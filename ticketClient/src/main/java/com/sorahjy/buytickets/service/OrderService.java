@@ -1,5 +1,6 @@
 package com.sorahjy.buytickets.service;
 
+import com.sorahjy.buytickets.dataobject.OrderMaster;
 import com.sorahjy.buytickets.dto.OrderDTO;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -33,5 +34,8 @@ public interface OrderService {
 
     /*查询订单列表*/
     Page<OrderDTO> findList(Pageable pageable);
+
+    OrderMaster save(OrderMaster orderMaster);
+    OrderMaster findById(String orderId);
 
 }

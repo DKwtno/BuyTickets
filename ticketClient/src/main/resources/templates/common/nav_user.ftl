@@ -22,7 +22,7 @@
           role="menu">
         <li class="dropdown-header">订购机票</li>
         <li>
-          <a href="#">即刻选票</a>
+          <a href="/tickets/index/login">即刻选票</a>
         </li>
       </ul>
     </li>

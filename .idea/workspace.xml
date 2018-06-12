@@ -1,35 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/LoginController.java" line="46" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/LoginController.java" line="47" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b9f7caa-92b3-48d4-91ef-fc403b4c0922" name="Default" comment="更新了航空公司">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank_client/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank_client/src/main/java/com/sorahjy/rpc/BankServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank_client/src/main/java/com/sorahjy/rpc/BankServiceInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank_client/src/main/java/com/sorahjy/rpc/CommandLineClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank_client/src/main/java/com/sorahjy/rpc/ServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank_client/src/main/java/com/sorahjy/rpc/UserData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank_server/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank_server/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank_server/src/main/java/com/sorahjy/rpc/BankService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank_server/src/main/java/com/sorahjy/rpc/BankServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank_server/src/main/java/com/sorahjy/rpc/BankServiceInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank_server/src/main/java/com/sorahjy/rpc/MySqlConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank_server/src/main/java/com/sorahjy/rpc/ServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank_server/src/main/java/com/sorahjy/rpc/UserData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank_server/src/main/pro/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank_server/src/main/production/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank_server/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/form/LoginForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketClient/src/main/resources/templates/buyer/list.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketClient/src/main/resources/templates/buyer/login.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketClient/src/main/resources/templates/buyer/pay.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/header_user.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/nav_user.ftl" afterDir="false" />
+    <list default="true" id="1b9f7caa-92b3-48d4-91ef-fc403b4c0922" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/successpay.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.lock" afterDir="false" />
@@ -37,23 +13,17 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3a8a9c2b-fe73-4960-828a-7f4e8d9bced9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3a8a9c2b-fe73-4960-828a-7f4e8d9bced9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketClient/build/classes/java/main/com/sorahjy/buytickets/controller/BuyerOrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/build/classes/java/main/com/sorahjy/buytickets/controller/BuyerOrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketClient/build/classes/java/main/com/sorahjy/buytickets/service/BuyerLoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/build/classes/java/main/com/sorahjy/buytickets/service/BuyerLoginService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketClient/build/classes/java/main/com/sorahjy/buytickets/service/impl/BuyerLoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/build/classes/java/main/com/sorahjy/buytickets/service/impl/BuyerLoginServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketClient/build/resources/main/templates/ticket/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/build/resources/main/templates/ticket/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketClient/build/classes/java/main/com/sorahjy/buytickets/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/build/classes/java/main/com/sorahjy/buytickets/service/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketClient/build/classes/java/main/com/sorahjy/buytickets/service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/build/classes/java/main/com/sorahjy/buytickets/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketClient/build/resources/main/templates/common/success.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/build/resources/main/templates/common/success.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticketClient/build/resources/main/templates/ticket/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/build/resources/main/templates/ticket/list.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/BuyerOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/BuyerOrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/SellerOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/SellerOrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/BuyerLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/BuyerLoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/impl/BuyerLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/impl/BuyerLoginServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketClient/src/main/resources/templates/ticket/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/src/main/resources/templates/ticket/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketClient/src/main/resources/templates/buyer/pay.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/src/main/resources/templates/buyer/pay.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/nav_user.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/nav_user.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/success.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/success.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticketClient/src/main/resources/templates/ticket/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/ticketClient/src/main/resources/templates/ticket/list.ftl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -132,47 +102,6 @@
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="tickets: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="tickets: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="airline_info: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="tickets: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="buyer_info: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="tickets: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="order_detail: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="tickets: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="order_master: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="tickets: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="ticket_info: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="sorahjy.com" type="feb32156:DbDataSourceImpl" />
       </path>
     </expand>
@@ -205,16 +134,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="145" column="92" lean-forward="true" selection-start-line="145" selection-start-column="92" selection-end-line="145" selection-end-column="92" />
+            <state relative-caret-position="186">
+              <caret line="139" column="16" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#index#0;class#LoginController#0" expanded="true" />
                 <element signature="method#login#0;class#LoginController#0" expanded="true" />
                 <element signature="method#buy#0;class#LoginController#0" expanded="true" />
+                <element signature="method#success#0;class#LoginController#0" expanded="true" />
                 <element signature="method#isInteger#0;class#LoginController#0" expanded="true" />
               </folding>
             </state>
@@ -222,10 +152,10 @@
         </entry>
       </file>
       <file leaf-file-name="list.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ticketClient/src/main/resources/templates/ticket/list.ftl">
+        <entry file="file://$PROJECT_DIR$/EAL/src/main/resources/templates/ticket/list.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+            <state relative-caret-position="212">
+              <caret line="83" column="46" selection-start-line="83" selection-start-column="46" selection-end-line="83" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -233,22 +163,44 @@
       <file leaf-file-name="pay.ftl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ticketClient/src/main/resources/templates/buyer/pay.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="267">
+              <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ticketClient/src/main/resources/templates/order/detail.ftl">
+      <file leaf-file-name="BuyticketsApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/BuyticketsApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="78" column="6" selection-start-line="78" selection-start-column="6" selection-end-line="94" selection-end-column="12" />
+            <state relative-caret-position="190">
+              <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+              <folding>
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user" pinned="false" current-in-tab="false">
+      <file leaf-file-name="OrderServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/impl/OrderServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+              <folding>
+                <element signature="method#searchOne#0;class#OrderServiceImpl#0" expanded="true" />
+                <element signature="method#findOne#0;class#OrderServiceImpl#0" expanded="true" />
+                <element signature="method#finish#0;class#OrderServiceImpl#0" expanded="true" />
+                <element signature="e#9021#9022#0" expanded="true" />
+                <element signature="e#9083#9084#0" expanded="true" />
+                <element signature="e#9154#9155#0" expanded="true" />
+                <element signature="e#9222#9223#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user" pinned="false" current-in-tab="true">
         <entry file="das://3a8a9c2b-fe73-4960-828a-7f4e8d9bced9/schema/bank_rpc/table/user">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
@@ -257,37 +209,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bank_client/src/main/java/Main.java">
+      <file leaf-file-name="OrderService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/OrderService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommandLineClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bank_client/src/main/java/com/sorahjy/rpc/CommandLineClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="134" column="64" selection-start-line="134" selection-start-column="40" selection-end-line="134" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#isInteger#0;class#CommandLineClient#0" expanded="true" />
-                <element signature="method#CommandLineClient#0;class#CommandLineClient#0" expanded="true" />
-                <element signature="method#login#0;class#CommandLineClient#0" expanded="true" />
-                <element signature="method#register#0;class#CommandLineClient#0" expanded="true" />
-                <element signature="method#withDrawMoney#0;class#CommandLineClient#0" expanded="true" />
-                <element signature="method#transferMoney#0;class#CommandLineClient#0" expanded="true" />
-                <element signature="method#addMoney#0;class#CommandLineClient#0" expanded="true" />
-                <element signature="e#4846#4847#0" expanded="true" />
-                <element signature="e#4876#4877#0" expanded="true" />
-                <element signature="e#4936#4937#0" expanded="true" />
-                <element signature="e#4974#4975#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="316">
+              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -2087,10 +2013,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/USSTAL/src/main/resources/templates/ticket/add.ftl" />
-        <option value="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/repository/TicketInfoRepository.java" />
-        <option value="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/service/impl/TicketInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/USSTAL/src/main/java/com/sorahjy/buytickets/service/TicketInfoService.java" />
         <option value="$PROJECT_DIR$/JAL/src/main/java/com/sorahjy/buytickets/JALApplication.java" />
         <option value="$PROJECT_DIR$/JAL/src/main/resources/application-usstal.yml" />
         <option value="$PROJECT_DIR$/JAL/src/main/resources/application-jal2.yml" />
@@ -2127,17 +2049,21 @@
         <option value="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/form/LoginForm.java" />
         <option value="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/BuyerOrderController.java" />
         <option value="$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/loginsuccess.ftl" />
-        <option value="$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/nav_user.ftl" />
         <option value="$PROJECT_DIR$/ticketClient/src/main/resources/templates/ticket/index.ftl" />
-        <option value="$PROJECT_DIR$/ticketClient/src/main/resources/templates/ticket/list.ftl" />
         <option value="$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/header.ftl" />
         <option value="$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/header_user.ftl" />
         <option value="$PROJECT_DIR$/ticketClient/src/main/resources/templates/buyer/list.ftl" />
         <option value="$PROJECT_DIR$/ticketClient/src/main/resources/templates/buyer/login.ftl" />
         <option value="$PROJECT_DIR$/ticketClient/src/main/java/rpc/UserData.java" />
         <option value="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/rpc/BankServiceFactory.java" />
+        <option value="$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/success.ftl" />
+        <option value="$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/successpay.ftl" />
+        <option value="$PROJECT_DIR$/ticketClient/src/main/resources/templates/ticket/list.ftl" />
+        <option value="$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/nav_user.ftl" />
+        <option value="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/OrderService.java" />
         <option value="$PROJECT_DIR$/ticketClient/src/main/resources/templates/buyer/pay.ftl" />
         <option value="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/impl/OrderServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -2154,10 +2080,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="214" />
-    <option name="y" value="75" />
-    <option name="width" value="1721" />
-    <option name="height" value="982" />
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="818" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -2184,7 +2109,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2195,37 +2119,7 @@
             <path>
               <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
               <item name="BuyTickets" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="bank_client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BuyTickets" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="bank_client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BuyTickets" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="bank_client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BuyTickets" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="bank_client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BuyTickets" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="bank_client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="bank_server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
@@ -2291,6 +2185,40 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sorahjy" type="462c0819:PsiDirectoryNode" />
+              <item name="buytickets" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuyTickets" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="ticketClient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sorahjy" type="462c0819:PsiDirectoryNode" />
+              <item name="buytickets" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuyTickets" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="ticketClient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sorahjy" type="462c0819:PsiDirectoryNode" />
+              <item name="buytickets" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuyTickets" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="ticketClient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sorahjy" type="462c0819:PsiDirectoryNode" />
               <item name="rpc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -2328,6 +2256,16 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="buyer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuyTickets" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="ticketClient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="category" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="buytickets" type="b2602c69:ProjectViewProjectNode" />
@@ -2428,6 +2366,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
@@ -2474,8 +2413,8 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ticketClient/src/main/java" />
       <recent name="$PROJECT_DIR$/ticketClient/src/main/resources/templates/common" />
+      <recent name="$PROJECT_DIR$/ticketClient/src/main/java" />
       <recent name="$PROJECT_DIR$/bank_client/src/main/java" />
       <recent name="$PROJECT_DIR$/bank_server/src" />
       <recent name="$PROJECT_DIR$/EAL/src/main/resources" />
@@ -2505,7 +2444,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BankServer">
+  <component name="RunManager" selected="Spring Boot.ConfigCenter">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -2896,7 +2835,8 @@
       <workItem from="1528632283801" duration="8042000" />
       <workItem from="1528648111194" duration="2844000" />
       <workItem from="1528699710570" duration="1497000" />
-      <workItem from="1528701896079" duration="23345000" />
+      <workItem from="1528701896079" duration="30315000" />
+      <workItem from="1528777254265" duration="4568000" />
     </task>
     <task id="LOCAL-00001" summary="更新部分repository">
       <created>1527910648196</created>
@@ -2989,7 +2929,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528642869452</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="整合所有模块，明天集成测试。">
+      <created>1528729390143</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1528729390143</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -3025,7 +2972,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201726000" />
+    <option name="totallyTimeSpent" value="213264000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -3037,8 +2984,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="307" y="126" width="1721" height="982" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1440" height="818" extended-state="0" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="13" />
       <window_info anchor="right" id="Palette" order="4" />
@@ -3048,23 +2994,23 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="right" id="Remote Host" order="5" weight="0.23390558" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Build" order="9" sideWeight="0.7399309" weight="0.24723756" />
-      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.16259678" />
+      <window_info anchor="bottom" id="Build" order="9" sideWeight="0.7399309" weight="0.24621733" />
+      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.16237482" />
       <window_info id="Structure" order="1" sideWeight="0.21685083" side_tool="true" weight="0.8469242" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.49858356" weight="0.44482365" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.49858356" weight="0.44363636" />
       <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49858356" weight="0.32969698" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49952784" weight="0.32969698" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.8227848" visible="true" weight="0.37853107" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.8227848" visible="true" weight="0.46879333" />
       <window_info anchor="bottom" id="Version Control" order="16" sideWeight="0.49952784" weight="0.31151515" />
       <window_info anchor="bottom" id="Spring" order="10" sideWeight="0.49712312" weight="0.32969698" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49858356" weight="0.27151516" />
-      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32768363" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7831492" visible="true" weight="0.21083978" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32599726" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7831492" visible="true" weight="0.21888413" />
       <window_info anchor="right" id="Bean Validation" order="12" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Gradle" order="9" weight="0.11825861" />
@@ -3081,6 +3027,48 @@
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="File Transfer" order="16" weight="0.32969698" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Build" order="9" sideWeight="0.7399309" weight="0.24723756" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="PlantUML" order="13" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Remote Host" order="5" weight="0.23390558" />
+      <window_info anchor="bottom" id="Spring" order="10" sideWeight="0.49712312" weight="0.32969698" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32768363" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.8227848" weight="0.37853107" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49858356" weight="0.27151516" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.17721519" side_tool="true" weight="0.48606062" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.32969698" />
+      <window_info anchor="bottom" id="File Transfer" order="17" weight="0.32969698" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49952784" weight="0.32969698" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="16" sideWeight="0.49952784" weight="0.31151515" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Gradle" order="9" weight="0.11825861" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7831492" visible="true" weight="0.21083978" />
+      <window_info anchor="right" id="SciView" order="0" />
+      <window_info anchor="right" id="Database" order="8" weight="0.16259678" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49858356" weight="0.32969698" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+      <window_info id="Structure" order="1" sideWeight="0.21685083" side_tool="true" weight="0.8469242" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32969698" />
+      <window_info anchor="bottom" id="SQL Generator" order="0" weight="0.32872927" />
+      <window_info anchor="right" id="Bean Validation" order="12" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.49858356" weight="0.4440678" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -3102,40 +3090,17 @@
     <MESSAGE value="服务器端完善手动新增机票功能" />
     <MESSAGE value="完成卖家端的后端+前端。使用了分布式锁+redis缓存" />
     <MESSAGE value="更新了航空公司" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新了航空公司" />
+    <MESSAGE value="整合所有模块，明天集成测试。" />
+    <option name="LAST_COMMIT_MESSAGE" value="整合所有模块，明天集成测试。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/impl/OrderServiceImpl.java</url>
-          <line>94</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/impl/OrderServiceImpl.java</url>
-          <line>90</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ticketClient/src/test/java/com/sorahjy/buytickets/service/impl/OrderServiceImplTest.java</url>
           <line>47</line>
           <properties />
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/impl/OrderServiceImpl.java</url>
-          <line>99</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/impl/OrderServiceImpl.java</url>
-          <line>102</line>
-          <properties />
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ticketClient/src/test/java/com/sorahjy/buytickets/service/impl/OrderServiceImplTest.java</url>
@@ -3271,216 +3236,69 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/LoginController.java</url>
-          <line>58</line>
+          <line>59</line>
           <properties />
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/LoginController.java</url>
-          <line>91</line>
+          <line>92</line>
           <properties />
           <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/LoginController.java</url>
-          <line>80</line>
+          <line>81</line>
           <properties />
           <option name="timeStamp" value="91" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/LoginController.java</url>
+          <line>184</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/LoginController.java</url>
+          <line>187</line>
+          <properties />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/LoginController.java</url>
+          <line>189</line>
+          <properties />
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/LoginController.java</url>
+          <line>190</line>
+          <properties />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/LoginController.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/LoginController.java</url>
+          <line>131</line>
+          <properties />
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/LoginController.java</url>
+          <line>136</line>
+          <properties />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="92" />
+      <option name="time" value="104" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/ClientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/loginsuccess.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/success.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="17" lean-forward="true" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/BuyerLoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/nav.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="16" column="11" lean-forward="true" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/dataobject/OrderDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/form/CategoryForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/form/OrderForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/SellerTicketController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="50" column="52" selection-start-line="45" selection-start-column="8" selection-end-line="50" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#index#0;class#SellerTicketController#0" expanded="true" />
-            <element signature="method#add#0;class#SellerTicketController#0" expanded="true" />
-            <element signature="method#save#0;class#SellerTicketController#0" expanded="true" />
-            <element signature="method#newer#0;class#SellerTicketController#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/nav_user.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/repository/BuyerInfoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/repository/OrderMasterRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/repository/TicketInfoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/impl/AirlineInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/impl/BuyerLoginServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="74" lean-forward="true" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="74" />
-          <folding>
-            <element signature="method#findBuyerInfoByBuyerOpenid#0;class#BuyerLoginServiceImpl#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/impl/TicketInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/impl/BuyerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="19" column="81" lean-forward="true" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
-          <folding>
-            <element signature="method#findOrderOne#0;class#BuyerServiceImpl#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/resources/templates/ticket/add.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-693" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/resources/templates/ticket/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="71" column="15" lean-forward="true" selection-start-line="71" selection-start-column="15" selection-end-line="71" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/BuyerOrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1654">
-          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#create#0;class#BuyerOrderController#0" expanded="true" />
-            <element signature="e#2680#2681#0" expanded="true" />
-            <element signature="e#2716#2717#0" expanded="true" />
-            <element signature="method#getTest#0;class#BuyerOrderController#0" expanded="true" />
-            <element signature="method#list#0;class#BuyerOrderController#0" expanded="true" />
-            <element signature="method#detail#0;class#BuyerOrderController#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/test/java/com/sorahjy/buytickets/repository/TicketInfoRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="method#saveTest#0;class#TicketInfoRepositoryTest#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/test/java/com/sorahjy/buytickets/repository/AirlineInfoRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/test/java/com/sorahjy/buytickets/repository/OrderDetailRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <element signature="method#saveTest#0;class#OrderDetailRepositoryTest#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ticketClient/src/test/java/com/sorahjy/buytickets/repository/OrderMasterRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-15">
@@ -3499,29 +3317,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/utils/KeyUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="52" lean-forward="true" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
           <folding>
             <element signature="method#genUniqueKey#0;class#KeyUtil#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/impl/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="213" column="52" lean-forward="true" selection-start-line="213" selection-start-column="52" selection-end-line="213" selection-end-column="52" />
-          <folding>
-            <element signature="method#finish#0;class#OrderServiceImpl#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3533,22 +3334,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/header_user.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/header.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/error.ftl">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/dto/OrderDTO.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -3564,13 +3355,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/rpc/BankServiceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -3595,37 +3379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/resources/templates/buyer/list.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/resources/templates/buyer/login.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/SellerOrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="47" column="32" lean-forward="true" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
-          <folding>
-            <element signature="method#cancel#0;class#SellerOrderController#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/rpc/UserData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -3633,27 +3386,6 @@
           <folding>
             <element signature="method#UserData#1;class#UserData#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3a8a9c2b-fe73-4960-828a-7f4e8d9bced9/schema/bank_rpc/table/user.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3a8a9c2b-fe73-4960-828a-7f4e8d9bced9/schema/bank_rpc/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/resources/templates/ticket/list.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -3668,51 +3400,315 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3a8a9c2b-fe73-4960-828a-7f4e8d9bced9/schema/bank_rpc/table/user.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank_server/src/main/java/com/sorahjy/rpc/ServiceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bank_client/src/main/java/com/sorahjy/rpc/CommandLineClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
+        <state relative-caret-position="1622">
           <caret line="134" column="64" selection-start-line="134" selection-start-column="40" selection-end-line="134" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank_server/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank_server/src/main/java/com/sorahjy/rpc/BankServiceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="60" column="17" lean-forward="true" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank_server/src/main/java/com/sorahjy/rpc/BankService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/success.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank_server/src/main/java/com/sorahjy/rpc/MySqlConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-118">
+          <caret line="156" column="59" lean-forward="true" selection-start-line="156" selection-start-column="59" selection-end-line="156" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/EALApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EAL/src/main/resources/application-eal.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/successpay.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/BuyerTicketCotroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/BuyerOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#isInteger#0;class#CommandLineClient#0" expanded="true" />
-            <element signature="method#CommandLineClient#0;class#CommandLineClient#0" expanded="true" />
-            <element signature="method#login#0;class#CommandLineClient#0" expanded="true" />
-            <element signature="method#register#0;class#CommandLineClient#0" expanded="true" />
-            <element signature="method#withDrawMoney#0;class#CommandLineClient#0" expanded="true" />
-            <element signature="method#transferMoney#0;class#CommandLineClient#0" expanded="true" />
-            <element signature="method#addMoney#0;class#CommandLineClient#0" expanded="true" />
-            <element signature="e#4846#4847#0" expanded="true" />
-            <element signature="e#4876#4877#0" expanded="true" />
-            <element signature="e#4936#4937#0" expanded="true" />
-            <element signature="e#4974#4975#0" expanded="true" />
+            <element signature="method#create#0;class#BuyerOrderController#0" expanded="true" />
+            <element signature="e#2680#2681#0" expanded="true" />
+            <element signature="e#2716#2717#0" expanded="true" />
+            <element signature="method#getTest#0;class#BuyerOrderController#0" expanded="true" />
+            <element signature="method#list#0;class#BuyerOrderController#0" expanded="true" />
+            <element signature="method#detail#0;class#BuyerOrderController#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/SellerTicketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#index#0;class#SellerTicketController#0" expanded="true" />
+            <element signature="method#add#0;class#SellerTicketController#0" expanded="true" />
+            <element signature="method#save#0;class#SellerTicketController#0" expanded="true" />
+            <element signature="method#newer#0;class#SellerTicketController#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/SellerCategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-121">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="method#save#0;class#SellerCategoryController#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/SellerOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="61" column="42" lean-forward="true" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
+          <folding>
+            <element signature="method#detail#0;class#SellerOrderController#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/service/impl/TicketInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#1361#1362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EAL/src/main/java/com/sorahjy/buytickets/controller/SellerTicketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="110" column="42" selection-start-line="110" selection-start-column="42" selection-end-line="110" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EAL/src/main/resources/templates/ticket/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-449" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EAL/src/main/resources/templates/ticket/add.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-548" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/nav_user.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/resources/templates/common/header_user.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/rpc/BankServiceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-129">
+          <caret line="67" column="105" lean-forward="true" selection-start-line="67" selection-start-column="105" selection-end-line="67" selection-end-column="105" />
+          <folding>
+            <element signature="method#call#0;class#BankServiceFactory#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/impl/BuyerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="19" column="81" lean-forward="true" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/repository/OrderDetailRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/repository/OrderMasterRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/RedisLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/resources/templates/ticket/list.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="84" column="20" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/resources/templates/buyer/list.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/resources/templates/buyer/login.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EAL/src/main/resources/templates/ticket/list.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="83" column="46" selection-start-line="83" selection-start-column="46" selection-end-line="83" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ticketClient/src/main/resources/templates/buyer/pay.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="267">
+          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/BuyticketsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding>
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="145" column="92" lean-forward="true" selection-start-line="145" selection-start-column="92" selection-end-line="145" selection-end-column="92" />
+        <state relative-caret-position="186">
+          <caret line="139" column="16" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#index#0;class#LoginController#0" expanded="true" />
             <element signature="method#login#0;class#LoginController#0" expanded="true" />
             <element signature="method#buy#0;class#LoginController#0" expanded="true" />
+            <element signature="method#success#0;class#LoginController#0" expanded="true" />
             <element signature="method#isInteger#0;class#LoginController#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="method#searchOne#0;class#OrderServiceImpl#0" expanded="true" />
+            <element signature="method#findOne#0;class#OrderServiceImpl#0" expanded="true" />
+            <element signature="method#finish#0;class#OrderServiceImpl#0" expanded="true" />
+            <element signature="e#9021#9022#0" expanded="true" />
+            <element signature="e#9083#9084#0" expanded="true" />
+            <element signature="e#9154#9155#0" expanded="true" />
+            <element signature="e#9222#9223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketClient/src/main/java/com/sorahjy/buytickets/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3a8a9c2b-fe73-4960-828a-7f4e8d9bced9/schema/bank_rpc/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>

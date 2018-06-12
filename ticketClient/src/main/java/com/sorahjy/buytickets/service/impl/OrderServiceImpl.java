@@ -54,8 +54,11 @@ public class OrderServiceImpl implements OrderService {
     @Transactional
     public OrderDTO create(final OrderDTO orderDTO) {
 
+        String orderId= orderDTO.getOrderId();
 
-        String orderId=KeyUtil.genUniqueKey();
+        if(orderId==null)
+            orderId= KeyUtil.genUniqueKey();
+
         BigDecimal orderAmount=new BigDecimal(BigInteger.ZERO);
 
         //jdk7
@@ -108,7 +111,7 @@ public class OrderServiceImpl implements OrderService {
     }
 
     @Override
-    public OrderDTO findOne(final String orderId) {
+    public OrderDTO searchOne(final String orderId) {
 
         long time=System.currentTimeMillis()+TIMEOUT;
 
@@ -135,7 +138,7 @@ public class OrderServiceImpl implements OrderService {
     }
 
     @Override
-    public OrderDTO searchOne(final String orderId) {
+    public OrderDTO findOne(final String orderId) {
 
         OrderMaster orderMaster = orderMasterRepository.findById(orderId).get();
 
@@ -269,5 +272,15 @@ public class OrderServiceImpl implements OrderService {
         Page<OrderDTO> orderDTOPage = new PageImpl<>(orderDTOList, pageable, orderMasterPage.getTotalElements());
 
         return orderDTOPage;
+    }
+
+    @Override
+    public OrderMaster save(final OrderMaster orderMaster) {
+        return orderMasterRepository.save(orderMaster);
+    }
+
+    @Override
+    public OrderMaster findById(final String orderId) {
+        return orderMasterRepository.findById(orderId).get();
     }
 }

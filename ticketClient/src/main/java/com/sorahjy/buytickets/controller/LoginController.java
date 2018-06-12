@@ -6,6 +6,7 @@ import com.sorahjy.buytickets.dataobject.OrderDetail;
 import com.sorahjy.buytickets.dataobject.OrderMaster;
 import com.sorahjy.buytickets.dataobject.TicketInfo;
 import com.sorahjy.buytickets.dto.OrderDTO;
+import com.sorahjy.buytickets.enums.OrderStatusEnum;
 import com.sorahjy.buytickets.exception.SellException;
 import com.sorahjy.buytickets.form.LoginForm;
 import com.sorahjy.buytickets.service.BuyerLoginService;
@@ -128,6 +129,7 @@ public class LoginController {
         OrderDetail orderDetail=new OrderDetail();
         TicketInfo ticket=ticketInfoService.findOne(ticketId);
         BeanUtils.copyProperties(ticket,orderDetail);
+        orderDTO.setOrderId(orderId);
         orderDetail.setDetailId(KeyUtil.genUniqueKey());
         orderDetail.setOrderId(orderId);
         orderDetail.setTicketQuantity(1);
@@ -136,6 +138,7 @@ public class LoginController {
 
 
         orderService.create(orderDTO);
+
 
         try {
 
@@ -166,6 +169,7 @@ public class LoginController {
             e.printStackTrace();
         }
 
+        map.put("orderId",orderId);
         map.put("ticketPrice",ticket.getTicketPrice());
         // map.put("url", "/tickets/index/list");
         return new ModelAndView("buyer/pay",map);
@@ -174,9 +178,22 @@ public class LoginController {
 
     }
 
+    @GetMapping("/success")
+    public ModelAndView success(@RequestParam(value = "orderId",required = true
+    )String orderId,Map<String,Object> map){
+
+        OrderMaster orderMaster=orderService.findById(orderId);
+
+        orderMaster.setOrderStatus(OrderStatusEnum.FINISHED.getCode());
+        orderService.save(orderMaster);
+
+        map.put("url", "/tickets/index/list");
+        return new ModelAndView("common/successpay",map);
+    }
+
     private static boolean isInteger(String s) {
         try {
-            Integer.parseInt(s);
+            Double.parseDouble(s);
         } catch (NumberFormatException e) {
             return false;
         } catch (NullPointerException e) {

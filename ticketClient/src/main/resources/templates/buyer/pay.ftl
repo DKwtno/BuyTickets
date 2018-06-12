@@ -15,17 +15,21 @@
 
         <br>
       <br>
-      <br>您账户余额为${}<br>
-      机票价格为${ticketPrice}<br>
-      是否购买？<br>
+      <br><h1>您账户余额为${balance}</h1><br>
+      <h1>机票价格为${ticketPrice}</h1><br>
+      <h1>是否购买？</h1><br>
 
       <div class="row clearfix">
         <div class="col-md-12 column">
-          <button
-              href="/tickets/index/success"
-              type="button"
-              class="btn btn-default btn-success">立即付款
-          </button>
+
+
+          <a href="/tickets/index/success?orderId=${orderId}">
+            <button
+                type="button"
+                class="btn btn-default btn-success">立即付款</button>
+          </a>
+
+
           <button
               type="button"
               class="btn btn-default btn-danger">考虑下

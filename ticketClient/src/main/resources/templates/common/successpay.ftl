@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-    <#include "../common/header_user.ftl">
+    <#include "../common/header.ftl">
 
 <body>
 
@@ -9,7 +9,7 @@
     id="wrapper"
     class="toggled">
 
-  <#include "../common/nav_user.ftl" >
+  <#include "../common/nav.ftl" >
   <div class="row clearfix">
     <div class="col-md-12 column">
       <div class="alert alert-dismissable alert-success">
@@ -20,7 +20,7 @@
             aria-hidden="true">×
         </button>
         <h4>
-          成功! </h4> <strong>您的操作已提交</strong>
+          Ohh! </h4> <strong>您成功购票</strong>
 
         <a
             href="${url}"
